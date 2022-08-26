@@ -1,0 +1,46 @@
+c:\users\jvasquez\documents\visual studio 2010\Projects\WebMacul\WebMacul\bin\WebMacul.dll
+c:\users\jvasquez\documents\visual studio 2010\Projects\WebMacul\WebMacul\bin\WebMacul.pdb
+c:\users\jvasquez\documents\visual studio 2010\Projects\WebMacul\WebMacul\obj\Debug\ResolveAssemblyReference.cache
+c:\users\jvasquez\documents\visual studio 2010\Projects\WebMacul\WebMacul\obj\Debug\WebMacul.dll
+c:\users\jvasquez\documents\visual studio 2010\Projects\WebMacul\WebMacul\obj\Debug\WebMacul.pdb
+D:\Documents and Settings\gbarrientos.IMUNIMACUL\Escritorio\WebMacul\WebMacul\bin\WebMacul.dll
+D:\Documents and Settings\gbarrientos.IMUNIMACUL\Escritorio\WebMacul\WebMacul\bin\WebMacul.pdb
+D:\Documents and Settings\gbarrientos.IMUNIMACUL\Escritorio\WebMacul\WebMacul\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\gbarrientos.IMUNIMACUL\Escritorio\WebMacul\WebMacul\obj\Debug\WebMacul.dll
+D:\Documents and Settings\gbarrientos.IMUNIMACUL\Escritorio\WebMacul\WebMacul\obj\Debug\WebMacul.pdb
+C:\Users\Paul\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\bin\WebMacul.dll
+C:\Users\Paul\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\bin\WebMacul.pdb
+C:\Users\Paul\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Paul\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\obj\Debug\WebMacul.dll
+C:\Users\Paul\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\obj\Debug\WebMacul.pdb
+C:\Users\Paul\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\bin\log4net.dll
+C:\Users\Paul\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\obj\Debug\RdlCompile.cache
+C:\Users\Paul\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\obj\Debug\RdlCompile.compiled
+C:\Users\jvasquez\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\obj\Debug\RdlCompile.cache
+C:\Users\jvasquez\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\obj\Debug\RdlCompile.compiled
+D:\Documents and Settings\gbarrientos.IMUNIMACUL\Escritorio\WebMacul\WebMacul\obj\Debug\RdlCompile.cache
+D:\Documents and Settings\gbarrientos.IMUNIMACUL\Escritorio\WebMacul\WebMacul\obj\Debug\RdlCompile.compiled
+C:\Users\jvasquez\Documents\Visual Studio 2010\WebSites\WebMacul\WebMacul\bin\WebMacul.dll
+C:\Users\jvasquez\Documents\Visual Studio 2010\WebSites\WebMacul\WebMacul\bin\WebMacul.pdb
+C:\Users\jvasquez\Documents\Visual Studio 2010\WebSites\WebMacul\WebMacul\obj\Debug\WebMacul.csprojResolveAssemblyReference.cache
+C:\Users\jvasquez\Documents\Visual Studio 2010\WebSites\WebMacul\WebMacul\obj\Debug\RdlCompile.cache
+C:\Users\jvasquez\Documents\Visual Studio 2010\WebSites\WebMacul\WebMacul\obj\Debug\RdlCompile.compiled
+C:\Users\jvasquez\Documents\Visual Studio 2010\WebSites\WebMacul\WebMacul\obj\Debug\WebMacul.dll
+C:\Users\jvasquez\Documents\Visual Studio 2010\WebSites\WebMacul\WebMacul\obj\Debug\WebMacul.pdb
+C:\Users\juan.v.g\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\obj\Debug\RdlCompile.cache
+C:\Users\juan.v.g\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\obj\Debug\RdlCompile.compiled
+C:\Users\juan.v.g\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\obj\Debug\WebMacul.dll
+C:\Users\juan.v.g\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\obj\Debug\WebMacul.pdb
+C:\Users\juan.v.g\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\bin\WebMacul.dll
+C:\Users\juan.v.g\Documents\Visual Studio 2010\Projects\WebMacul\WebMacul\bin\WebMacul.pdb
+D:\Proyectos\Web\Liquidaciones\WebMacul\WebMacul\bin\WebMacul.dll.config
+D:\Proyectos\Web\Liquidaciones\WebMacul\WebMacul\bin\WebMacul.dll
+D:\Proyectos\Web\Liquidaciones\WebMacul\WebMacul\bin\WebMacul.pdb
+D:\Proyectos\Web\Liquidaciones\WebMacul\WebMacul\obj\Debug\RdlCompile.cache
+D:\Proyectos\Web\Liquidaciones\WebMacul\WebMacul\obj\Debug\RdlCompile.compiled
+D:\Proyectos\Web\Liquidaciones\WebMacul\WebMacul\obj\Debug\WebMacul.dll
+D:\Proyectos\Web\Liquidaciones\WebMacul\WebMacul\obj\Debug\WebMacul.pdb
+D:\Proyectos\Web\Liquidaciones\WebMacul\WebMacul\bin\Microsoft.QualityTools.Testing.Fakes.dll
+D:\Proyectos\Web\Liquidaciones\WebMacul\WebMacul\bin\Microsoft.ReportViewer.Common.dll
+D:\Proyectos\Web\Liquidaciones\WebMacul\WebMacul\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Proyectos\Web\Liquidaciones\WebMacul\WebMacul\bin\Microsoft.ReportViewer.WebForms.dll

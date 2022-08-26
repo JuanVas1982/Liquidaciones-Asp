@@ -1,0 +1,140 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebMacul.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            height: 89px;
+        }
+        .style2
+        {
+            color: #FFFFFF;
+        }
+        .style3
+        {
+            height: 89px;
+            width: 149px;
+        }
+        .menu
+        {
+            text-align: left;
+        }
+        .menu
+        {
+            background-color: #0099FF;
+        }
+        .menu
+        {
+            background-color: #666699;
+        }
+        .menu
+        {
+            background-color: #4B6C9E;
+        }
+        .style8
+        {
+            color: #CC0000;
+        }
+        .style9
+        {
+            width: 317px;
+        }
+        </style>
+</head>
+<body >
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+             <div>
+             <table style="height: 119px">
+             <tr>
+             <td class="style3">
+              <asp:Image ID="Image1" runat="server" DescriptionUrl="~/Styles/logo1.png" 
+                     ImageUrl="~/Styles/logo1.png" style="text-align: left" />
+               
+             </td>
+             <td>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+             </td>
+             <td class="style1">
+             <asp:Image ID="Image2" runat="server" DescriptionUrl="~/Styles/banner3.png" 
+                     ImageUrl="~/Styles/banner3.png" Width="456px" Height="114px" 
+                     style="text-align: right" />
+             </td>
+            
+             </tr>               
+                 
+               
+             
+          
+             </table>
+             <table style="background-color: #4B6C9E">
+             <tr>
+             <td>
+             <div style="background-color: #4B6C9E; width: 633px;">
+                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+                       EnableViewState="False" IncludeStyleBlock="False" 
+                     Orientation="Horizontal" onmenuitemclick="NavigationMenu_MenuItemClick" >
+                         
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Inicio" Value="Inicio">
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Funcionario.aspx" Text="Datos Funcionario" 
+                            Value="Datos Funcionario">
+                            <asp:MenuItem NavigateUrl="~/Account/Cambioclave.aspx" 
+                                Text="Cambiar Contraseña" Value="Cambiar Contraseña"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Liquidacion.aspx" Text="Liquidacion Sueldo" 
+                            Value="Liquidacion Sueldo"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/RelogControl.aspx" Text="Relog Control" 
+                            Value="Relog Control"></asp:MenuItem>
+                    </Items>
+                   
+                </asp:Menu>
+                </div>
+             </td>
+             <td class="style9" style="text-align: right">
+              <div style="background-color: #4B6C9E">
+              <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false" 
+                      onviewchanged="HeadLoginView_ViewChanged">
+                    
+                    <AnonymousTemplate>
+                        [<a href="~/Account/Login.aspx" ID="HeadLoginStatus0" runat="server" 
+                            class="style1">Iniciar sesión</a> ]
+                    </AnonymousTemplate>
+
+                    <LoggedInTemplate>
+                        <span class="style2">bienvenido <span class="bold">
+                        <asp:LoginName ID="HeadLoginName" runat="server"  />
+                        </span>! </span>[ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" 
+                            LogoutText="Cerrar sesión" LogoutPageUrl="~/" ForeColor="White" 
+                            onloggingout="HeadLoginStatus_LoggingOut"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+              </div>
+             </td>
+             </tr>
+             </table>
+                
+
+              </div>          
+                               
+        </div>
+        <br />
+         <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+       
+    </div>
+    </form>
+</body>
+</html>

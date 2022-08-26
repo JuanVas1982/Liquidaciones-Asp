@@ -1,0 +1,163 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebMacul.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+ 
+<script type="text/javascript">
+
+    /*var key = window.event.keyCode; */
+
+    setInterval("window.status = ''", 10);
+
+    var testremove = location.href.toLowerCase().indexOf("Login.aspx");
+
+    if (testremove != -1) {
+        location.replace(location.href.substring(0, testremove));
+    }
+
+    function AlertaClave() {
+
+        alert('El ingreso de la nueva clave es incorrecto');
+
+    }
+    function AlertaClaveAnt() {
+
+        alert('El ingreso de la clave antigua es incorrecto');
+
+    }
+    function AlertaRut() {
+
+        alert('El ingreso del Rut es incorrecto');
+
+    }
+    function AlertaUsuario() {
+
+        alert('La contraseña actual no corresponde');
+
+    }
+    function AlertaExito() {
+
+        alert('La contraseña fue cambiada correctamente');
+
+    }
+    function AlertaLiquidacion() {
+
+        alert('El funcionario no posee liquidacion en el periodo');
+    }
+    function AlertaLiquidacionHoras() {
+
+        alert('El funcionario no posee Horas Extras en el periodo');
+    }
+    function AlertaUsuarioerror() {
+
+        alert('El Usuario no posee autorizacion, comuniquese con el administrador');
+    }
+    function AlertaUsuarioexito() {
+
+        alert('El Usuario fue ingresado con exito');
+    }
+    function AlertaUsuarioerror2() {
+
+        alert('El Usuario o contraseña incorrecta, Reintente accesar al sistema');
+    }
+    function AlertaUsuarioerror3() {
+
+        alert('El Usuario ya existe, comuniquese con el administrador');
+    }
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+         body 
+          {
+            height: 89px;
+            margin-left: 10%;
+        }
+        .style1
+        {
+            height: 89px;
+        }
+        .style2
+        {
+            color: #FFFFFF;
+        }
+        .style3
+        {
+            height: 89px;
+            }
+        .menu
+        {
+        }
+        .menu
+        {
+            background-color: #0099FF;
+        }
+        .menu
+        {
+            background-color: #666699;
+        }
+        .menu
+        {
+            background-color: #3366CC;
+        }
+              
+    </style>
+</head>
+
+
+<body>
+ 
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+             <div>
+             <div style="text-align: right; background-color: #FFFFFF; color: #6699FF;">
+             <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false" 
+                      onviewchanged="HeadLoginView_ViewChanged">
+                    
+                    <AnonymousTemplate>
+                        [<a href="~/Account/Login.aspx" ID="HeadLoginStatus0" runat="server" 
+                            class="style1">Iniciar sesión</a> ]
+                     
+                    </AnonymousTemplate>
+
+                    <LoggedInTemplate>
+                        <span class="style2">Bienvenido <span class="bold">
+                        <asp:LoginName ID="HeadLoginName" runat="server" 
+                            style="background-color: #FFFFFF; color: #6699FF;"  />
+                        </span>! </span>[ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" 
+                            LogoutText="Cerrar sesión" LogoutPageUrl="~/Account/Login.aspx" ForeColor="Blue" 
+                            onloggingout="HeadLoginStatus_LoggingOut"/> ]
+                          
+                    </LoggedInTemplate>
+                </asp:LoginView></div>
+             <table style="height: 119px; background-color: #FFFFFF; width: 931px;">
+             <tr>
+             <td class="style3">
+                
+                 <asp:Image ID="Image1" runat="server" 
+                     ImageUrl="~/Styles/banner_liquidaciones.jpg" />
+               
+             </td>
+            
+             </tr>
+              
+             </table>
+                
+
+              </div>
+                               
+        </div>
+        <br />
+         <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+       
+    </div>
+    </form>
+</body>
+</html>
